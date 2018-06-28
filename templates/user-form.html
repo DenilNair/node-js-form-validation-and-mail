@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Client Data</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="login-box">
+
+<img src="nair.jpg" class="avatar"> 
+    <h1>Please fill data in the form below:</h1>
+    <form method="POST" action="/post-feedback">
+        <label>Name:<input type="text" name='name' placeholder="Enter Name" required></label>
+        <br>
+        <label>Date of Birth:<input type="date" name='bday' required></label>
+        <br>
+
+        <label>Email:<input type="email" name='email' placeholder="Enter your mail ID" required></label>
+        <br>
+        <label>Mobile number:<input type="number" name='number' placeholder="Enter your Mobile no.    " required></label>
+        <br>
+        <input type="submit" value="Submit">
+
+    </form>
+       </div>
+</body>
+</html>

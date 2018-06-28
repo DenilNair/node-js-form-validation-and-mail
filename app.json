@@ -1,0 +1,8 @@
+{
+"name": "Node.js Getting Started",
+"description": "A Node.js app using Express",
+"repository": "https://github.com/DenilNair/node-js-form-validation-and-mail.git",
+"logo": "http://node-js-sample.herokuapp.com/node.svg",
+"keyword":["node","express","static"],
+"image": "heroku/nodejs"
+}
