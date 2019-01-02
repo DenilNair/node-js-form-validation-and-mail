@@ -15,9 +15,9 @@ var transport=mailer.createTransport({
 
 		//please enter mail id and password from which you want to send mail
 		///mail id
-		user:"denilnair@gmail.com",
+		user:"denilnair@yahoo.com",
 		//password
-		pass:"Nair9196@"
+		pass:"Asd123qwe@"
 	}
 	});
 app.use(bodyParser.urlencoded({ extended: false }));//use to take data from form in JSON format
