@@ -5,7 +5,7 @@ var bodyParser=require('body-parser');
 var conn= mysql.createConnection({
 	host: "localhost",
 	user:"root",
-	password:"Nair9196@"
+	password:"Denil9196"
 });
 var mailer=require('nodemailer');
 var transport=mailer.createTransport({
@@ -15,9 +15,9 @@ var transport=mailer.createTransport({
 
 		//please enter mail id and password from which you want to send mail
 		///mail id
-		user:"",
+		user:"denilnair@gmail.com",
 		//password
-		pass:""
+		pass:"Nair9196@"
 	}
 	});
 app.use(bodyParser.urlencoded({ extended: false }));//use to take data from form in JSON format
