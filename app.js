@@ -5,7 +5,7 @@ var bodyParser=require('body-parser');
 var conn= mysql.createConnection({
 	host: "localhost",
 	user:"root",
-	password:"denil9196"
+	password:"Nair9196@"
 });
 var mailer=require('nodemailer');
 var transport=mailer.createTransport({
